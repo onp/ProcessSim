@@ -1,0 +1,23 @@
+#container{
+    margin:10px;
+}
+
+svg path{
+    fill:none;
+    stroke-width:1px;
+}
+
+path.sol{
+    stroke:green;
+}
+
+.axis{
+    stroke:black;
+}
+
+svg#plot{
+    margin:10px 0px;
+    width:900px;
+    height:600px;
+    border:1px solid lightGray;
+}

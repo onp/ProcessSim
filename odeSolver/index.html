@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>ODE Solver</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+        <script src="/js-lib/jquery-2.0.3.min.js"></script>
+        <script src="/js-lib/numeric-1.2.6.js"></script>
+        <script src="/js-lib/d3.v3.min.js"></script>
+        
+        <script src="/js/main.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        
+    </head>
+
+    <body>
+        <div id="container">
+            <h1>ODE Solver</h1>
+            <div id="equation-box">
+                <input type="text" id="LHS" placeholder="ex. y[1]"></input>
+                <span> = </span>
+                <input type="text" id="RHS" placeholder="ex. y[1]"></input>
+            </div>
+            <svg id="plot">
+            </svg>
+        </div>
+    </body>
+</html>

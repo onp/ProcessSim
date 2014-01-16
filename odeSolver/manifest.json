@@ -1,0 +1,16 @@
+{
+    "name":"Process Control Looper",
+    "description":"Simulation of process control loops",
+    "version": "0.1",
+    "manifest_version":2,
+    "permissions":[],
+    "app":{
+        "background":{
+            "scripts":["background.js"]
+        }
+    },
+    "icons":{
+        "16":"images/app_icons/calculator-16.png",
+        "128":"images/app_icons/icon-128.png"
+    }
+}   
